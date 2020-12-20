@@ -10,6 +10,10 @@ namespace Base_Lesson_1
     {
         static void Main(string[] args)
         {
+
+            int wow = 0;
+            int b = wow - 10;
+
         }
     }
 }
