@@ -14,6 +14,8 @@ namespace Base_Lesson_1
             int wow = 0;
             int b = wow - 10;
 
+            string ff = "";
+
         }
     }
 }
