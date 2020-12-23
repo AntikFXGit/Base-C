@@ -12,22 +12,22 @@ namespace Lesson_2
         static void Main(string[] args)
         {
             // Задача 1.
-            //Task1();
+            Task1();
 
             // Задача 2.
-            //Task2();
+            Task2();
 
             // Задача 3.
-            //Task3();
+            Task3();
 
             // Задача 4.
-            // Task4();
+            Task4();
 
             // Задача 5.
-            //Task5();
+            Task5();
 
             // Задача 6.
-            // Task6();
+            Task6();
 
             // Задача 7.
             Task7();
@@ -234,13 +234,14 @@ namespace Lesson_2
             int cnt = 0;
             long sum;
             int unixTimestampStart = (int)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
+            Console.Write("Выполнение...");
             for (long i=1; i<1000000000; i++)
             {
                 sum = getSum(i);
                 if (i % sum == 0) cnt++;
             }
             int unixTimestampStop = (int)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
-
+            
 
             // Вывод данных
             Console.WriteLine("\nРезультат:");
